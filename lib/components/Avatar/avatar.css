@@ -1,0 +1,50 @@
+.avatar-component {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 0.5rem;
+}
+
+.avatar-size-desc {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2rem;
+    margin: 0.5rem;
+}
+
+.avatar-size-info {
+    padding: 0.25rem;
+    box-shadow: var(--shadow-color) 0px 3px 8px;
+}
+
+.ava-round-img {
+    border-radius: 50%;
+}
+
+.ava-sq-img {
+    border-radius: 2rem;
+}
+
+.avatar-xxl {
+    width: 12rem;
+    height: 12rem;
+}
+
+.avatar-xl {
+    width: 10rem;
+    height: 10rem;
+}
+
+.avatar-l {
+    width: 8rem;
+    height: 8rem;
+}
+
+.avatar-m {
+    width: 6rem;
+    height: 6rem;
+}
+
+.avatar-s {
+    width: 4rem;
+    height: 4rem;
+}
