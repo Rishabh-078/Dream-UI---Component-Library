@@ -114,6 +114,10 @@ button {
     cursor: pointer;
 }
 
+.secondary-btn>a {
+    color: var(--secondary-color);
+}
+
 .secondary-btn:hover {
     background-color: var(--primary-color-b);
 }
@@ -136,6 +140,14 @@ button {
     align-items: center;
     grid-area: section-iframe;
     height: auto;
+}
+
+iframe {
+    width: 503px;
+    height: 100px;
+    border: 0;
+    transform: scale(1);
+    overflow: hidden;
 }
 
 footer {

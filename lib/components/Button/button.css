@@ -1,0 +1,91 @@
+.button-component {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 0.5rem;
+}
+
+.fas {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.btn-no-decor {
+    border: none;
+    background: none;
+}
+
+.link{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.btn-no-decor:hover {
+    transform: scale(1.2);
+}
+
+.btn {
+    padding: 0.5rem;
+    font-weight: 550;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    box-shadow: var(--shadow-color) 0px 3px 8px;
+}
+
+.primary-solid-btn,
+.primary-outline-btn:hover {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border: 0.1rem solid var(--primary-color);
+}
+
+.success-solid-btn,
+.success-outline-btn:hover {
+    color: var(--secondary-color);
+    background-color: var(--success-color);
+    border: 0.1rem solid var(--success-color);
+}
+
+.error-solid-btn,
+.error-outline-btn:hover {
+    color: var(--secondary-color);
+    background-color: var(--error-color);
+    border: 0.1rem solid var(--error-color);
+}
+
+.warning-solid-btn,
+.warning-outline-btn:hover {
+    color: var(--secondary-color);
+    background-color: var(--warning-color);
+    border: 0.1rem solid var(--warning-color);
+}
+
+.primary-outline-btn,
+.primary-solid-btn:hover {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border: 0.1rem solid var(--primary-color);
+}
+
+.success-outline-btn,
+.success-solid-btn:hover {
+    color: var(--success-color);
+    background-color: var(--secondary-color);
+    border: 0.1rem solid var(--success-color);
+}
+
+.error-outline-btn,
+.error-solid-btn:hover {
+    color: var(--error-color);
+    background-color: var(--secondary-color);
+    border: 0.1rem solid var(--error-color);
+}
+
+.warning-outline-btn,
+.warning-solid-btn:hover {
+    color: var(--warning-color);
+    background-color: var(--secondary-color);
+    border: 0.1rem solid var(--warning-color);
+}
