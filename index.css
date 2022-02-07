@@ -100,6 +100,7 @@ button {
 .primary-btn {
     color: var(--primary-color);
     background-color: var(--secondary-color);
+    cursor: pointer;
 }
 
 .primary-btn:hover {
@@ -110,6 +111,7 @@ button {
 .secondary-btn {
     color: var(--secondary-color);
     background-color: var(--primary-color);
+    cursor: pointer;
 }
 
 .secondary-btn:hover {
