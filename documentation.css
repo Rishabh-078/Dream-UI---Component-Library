@@ -1,3 +1,5 @@
+@import "./lib/components/Avatar/avatar.css";
+@import "./lib/components/Alerts/alert.css";
 
 * {
     padding: 0;
@@ -13,8 +15,12 @@
     --error-color: rgb(252, 25, 25);
     --success-color: rgb(41, 180, 41);
     --warning-color: #ff9700;
-    --offline-color: rgba(128, 128, 128, 0.466);
-    --shadow-color: rgb(0 0 0 / 40%);
+    --offline-color: rgba(53, 52, 52, 0.884);
+    --shadow-color: rgba(0, 0, 0, 0.274);
+}
+
+p {
+    font-size: 1.25rem;
 }
 
 .documentation-tab {
@@ -22,7 +28,6 @@
     grid-template-columns: 15vw 1fr;
     grid-template-areas:
         "header-sec header-sec"
-        "aside-sec main-sec"
         "aside-sec main-sec"
 }
 
@@ -37,7 +42,7 @@ header {
     font-size: 1.75rem;
     font-weight: 550;
     background-color: var(--secondary-color);
-    z-index: 1;
+    z-index: 2;
 }
 
 nav>img {
@@ -80,6 +85,8 @@ aside {
     height: 100vh;
     padding-top: 1.25rem;
     box-shadow: var(--shadow-color) 0px 3px 8px;
+    background-color: var(--secondary-color);
+    z-index: 2;
 }
 
 .aside-comp-items {
@@ -109,10 +116,47 @@ aside {
 main {
     grid-area: main-sec;
     font-size: 2rem;
-    margin: 2rem;
+    margin: 3rem;
+    display: grid;
+    gap: 1rem;
 }
 
 iframe {
     margin: 1rem auto;
-    max-height: 15rem;
+    width: 50%;
+    max-width: 50rem;
+    height: 15rem;
+    border:0; 
+    transform: scale(1); 
+    overflow:hidden;
+}
+
+.container {
+    box-shadow: var(--primary-color) 0px 3px 8px;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1rem;
+}
+
+.container:hover {
+    box-shadow: 0rem 0.2rem 1rem var(--primary-color);
+}
+
+@media only screen and (max-width:1050px) {
+    aside {
+        display: none;
+    }
+
+    .documentation-tab {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "header-sec"
+            "main-sec"
+    }
 }
