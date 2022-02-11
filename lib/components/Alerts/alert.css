@@ -1,4 +1,4 @@
-.alert-component {
+.alert-wrapper {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -23,38 +23,38 @@
     border-radius: 0.5rem;
 }
 
-.alert-primary-a {
+.alert-primary-solid {
     background-color: var(--primary-color);
 }
 
-.alert-error-a {
+.alert-error-solid {
     background-color: var(--error-color);
 }
 
-.alert-success-a {
+.alert-success-solid {
     background-color: var(--success-color);
 }
 
-.alert-warning-a {
+.alert-warning-solid {
     background-color: var(--warning-color);
 }
 
-.alert-primary-b {
+.alert-primary-outlined {
     border: 0.15rem solid var(--primary-color);
     color: var(--primary-color);
 }
 
-.alert-error-b {
+.alert-error-outlined {
     border: 0.15rem solid var(--error-color);
     color: var(--error-color);
 }
 
-.alert-success-b {
+.alert-success-outlined {
     border: 0.15rem solid var(--success-color);
     color: var(--success-color);
 }
 
-.alert-warning-b {
+.alert-warning-outlined {
     border: 0.15rem solid var(--warning-color);
     color: var(--warning-color);
 }

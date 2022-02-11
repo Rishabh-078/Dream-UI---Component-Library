@@ -14,7 +14,7 @@
     <div class="documentation-tab">
         <header>
             <nav>
-                <img src="./assets/Logo.PNG" />
+                <img class="nav-img" src="./assets/Logo.PNG" />
                 <a href="./index.html" class="nav-items">Home</a>
                 <a href="./documentaion.html" class="nav-items">Documentation</a>
             </nav>
@@ -44,7 +44,7 @@
         </aside>
         <main>
             <!-- Avatar Component -->
-            <div class="avatar-component">
+            <div class="avatar-wrapper">
                 <h3>Avatar</h3>
                 <p>
                     Avatar showcases the user's picture for the login profile, for the navigation bar and also for other
@@ -63,19 +63,19 @@
                 <h5>Examples of Round Image Avatar:</h5>
                 <div class="container">
                     <div class="avatar">
-                        <img class="ava-round-img avatar-xxl" src="./assets/avatar.png" alt="Avatar" loading="lazy"/>
+                        <img class="avatar-rounded avatar-xxl" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
                     </div>
                     <div class="avatar">
-                        <img class="ava-round-img avatar-xl" src="./assets/avatar.png" alt="Avatar" loading="lazy"/>
+                        <img class="avatar-rounded avatar-xl" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
                     </div>
                     <div class="avatar">
-                        <img class="ava-round-img avatar-l" src="./assets/avatar.png" alt="Avatar" loading="lazy"/>
+                        <img class="avatar-rounded avatar-l" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
                     </div>
                     <div class="avatar">
-                        <img class="ava-round-img avatar-m" src="./assets/avatar.png" alt="Avatar" loading="lazy"/>
+                        <img class="avatar-rounded avatar-m" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
                     </div>
                     <div class="avatar">
-                        <img class="ava-round-img avatar-s" src="./assets/avatar.png" alt="Avatar" loading="lazy"/>
+                        <img class="avatar-rounded avatar-s" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
                     </div>
                 </div>
                 <iframe
@@ -85,19 +85,19 @@
                 <h5>Examples of Square Image Avatar:</h5>
                 <div class="container">
                     <div class="avatar">
-                        <img class="ava-sq-img avatar-xxl" src="./assets/avatar.png" alt="Avatar" loading="lazy"/>
+                        <img class="avatar-squared avatar-xxl" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
                     </div>
                     <div class="avatar">
-                        <img class="ava-sq-img avatar-xl" src="./assets/avatar.png" alt="Avatar" loading="lazy"/>
+                        <img class="avatar-squared avatar-xl" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
                     </div>
                     <div class="avatar">
-                        <img class="ava-sq-img avatar-l" src="./assets/avatar.png" alt="Avatar" loading="lazy"/>
+                        <img class="avatar-squared avatar-l" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
                     </div>
                     <div class="avatar">
-                        <img class="ava-sq-img avatar-m" src="./assets/avatar.png" alt="Avatar" loading="lazy"/>
+                        <img class="avatar-squared avatar-m" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
                     </div>
                     <div class="avatar">
-                        <img class="ava-sq-img avatar-s" src="./assets/avatar.png" alt="Avatar" loading="lazy"/>
+                        <img class="avatar-squared avatar-s" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
                     </div>
                 </div>
                 <iframe
@@ -108,7 +108,7 @@
             <!-- Avatar Component Ends -->
 
             <!-- ALert Component Starts -->
-            <div class="alert-component">
+            <div class="alert-wrapper">
                 <h3>Alerts</h3>
                 <p>Alerts are used to attract user's attention for important information without interrupting the user's
                     flow.</p>
@@ -116,16 +116,16 @@
                     different styles: Solid Alert and Outline Alert.
                     <h5>Examples of Solid Alert Box:</h5>
                     <div class=" container alert-container">
-                        <div class="alert-item alert-primary-a">
+                        <div class="alert-item alert-primary-solid">
                             This is a Primary Alert!
                         </div>
-                        <div class="alert-item alert-error-a">
+                        <div class="alert-item alert-error-solid">
                             This is a Error Alert!
                         </div>
-                        <div class="alert-item alert-success-a">
+                        <div class="alert-item alert-success-solid">
                             This is a Success Alert!
                         </div>
-                        <div class="alert-item alert-warning-a">
+                        <div class="alert-item alert-warning-solid">
                             This is a Warning Alert!
                         </div>
                     </div>
@@ -135,16 +135,16 @@
                     </iframe>
                     <h5>Examples of Outline Alert Box:</h5>
                     <div class="container alert-container">
-                        <div class="alert-item alert-primary-b">
+                        <div class="alert-item alert-primary-outlined">
                             This is a Primary Alert!
                         </div>
-                        <div class="alert-item alert-error-b">
+                        <div class="alert-item alert-error-outlined">
                             This is a Error Alert!
                         </div>
-                        <div class="alert-item alert-success-b">
+                        <div class="alert-item alert-success-outlined">
                             This is a Success Alert!
                         </div>
-                        <div class="alert-item alert-warning-b">
+                        <div class="alert-item alert-warning-outlined">
                             This is a Warning Alert!
                         </div>
                     </div>
@@ -154,6 +154,125 @@
                     </iframe>
             </div>
             <!-- ALert Component Ends  -->
+            <!-- Badge Comonent Starts  -->
+            <div class="badge-wrapper">
+                <h3>Badges</h3>
+                <p>Badges are being used to display a notification count or status information.</p>
+                <p>We have two types of avatar badges that tells whether the user is online, offline or in DND mode.
+                    Along with it icon badges are also present.</p>
+                <h5>Examples of Dot Profile Badges:</h5>
+                <div class="container">
+                    <div class="avatar">
+                        <img class="avatar-rounded avatar-m" src="./assets/avatar.png" alt="Avatar" />
+                        <div class="badge-dot badge-online-dot"></div>
+                    </div>
+                    <div class="avatar">
+                        <img class="avatar-rounded avatar-m" src="./assets/avatar.png" alt="Avatar" />
+                        <div class="badge-dot badge-offline-dot"></div>
+                    </div>
+                    <div class="avatar">
+                        <img class="avatar-rounded avatar-m" src="./assets/avatar.png" alt="Avatar" />
+                        <div class="badge-dot badge-dnd-dot"></div>
+                    </div>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28133%2C122%2C53%2C1%29&t=night-owl&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253C%21--%2520Online%2520Badge%2520--%253E%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522ava-round-img%2520avatar-m%2522%2520src%253D%2522%2522%2520alt%253D%2522Avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-dot%2520badge-online-a%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%21--%2520Offline%2520Badge%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522ava-round-img%2520avatar-m%2522%2520src%253D%2522%2522%2520alt%253D%2522Avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-dot%2520badge-offline-a%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%21--%2520DND%2520Badge%2520--%253E%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522ava-round-img%2520avatar-m%2522%2520src%253D%2522%2522%2520alt%253D%2522Avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-dot%2520badge-dnd-a%2522%253E%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <h5>Examples of Outline Profile Badges:</h5>
+                <div class="container">
+                    <div class="avatar">
+                        <img class="avatar-rounded avatar-m badge-online-outlined" src="./assets/avatar.png" alt="Avatar" />
+                    </div>
+                    <div class="avatar">
+                        <img class="avatar-rounded avatar-m badge-offline-outlined" src="./assets/avatar.png" alt="Avatar" />
+                    </div>
+                    <div class="avatar">
+                        <img class="avatar-rounded avatar-m badge-dnd-outlined" src="./assets/avatar.png" alt="Avatar" />
+                    </div>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28133%2C122%2C53%2C1%29&t=night-owl&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253C%21--%2520Online%2520Badge%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522ava-round-img%2520avatar-m%2520badge-online-b%2522%2520src%253D%2522%2522%2520alt%253D%2522Avatar%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253C%21--%2520Offline%2520Badge%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522ava-round-img%2520avatar-m%2520badge-offline-b%2522%2520src%253D%2522%2522%2520alt%253D%2522Avatar%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253C%21--%2520DND%2520Badge%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522ava-round-img%2520avatar-m%2520badge-dnd-b%2522%2520src%253D%2522%2522%2520alt%253D%2522Avatar%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <h5>Examples of Icon Badges:</h5>
+                <div class="container">
+                    <div class="avatar">
+                        <i class="fas fa-2x fa-shopping-cart"></i>
+                        <div class="badge-left badge-text badge-square">5</div>
+                    </div>
+                    <div class="avatar">
+                        <i class="fas fa-2x fa-download"></i>
+                        <div class="badge-right badge-text badge-round">6</div>
+                    </div>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28133%2C122%2C53%2C1%29&t=night-owl&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253C%21--%2520Square%2520Badge%2520on%2520Top%2520Left%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-2x%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-left%2520badge-text%2520badge-square%2522%253E5%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%21--%2520Circular%2520Badge%2520on%2520Top%2520Right%2520%2520--%253E%250A%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-2x%2520fa-download%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-right%2520badge-text%2520badge-round%2522%253E6%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <!-- Badge Component Ends -->
+
+            <!-- Button Component Starts  -->
+            <div class="button-wrapper">
+                <h3>Button</h3>
+                <p> Buttons are also called as call to action. We have range of buttons and their states. You may use a
+                    tag or button element, you need to add respective classes, and you are good to go.</p>
+                <h5>Examples of Solid Buttons: </h5>
+                <div class="container">
+                    <button class="btn primary-solid-btn">
+                        Primary Button
+                    </button>
+                    <button class="btn success-solid-btn">
+                        Success Button
+                    </button>
+                    <button class="btn error-solid-btn">
+                        Error Button
+                    </button>
+                    <button class="btn warning-solid-btn">
+                        Warning Button
+                    </button>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28133%2C122%2C53%2C1%29&t=night-owl&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253C%21--%2520Solid%2520Primary%2520Button%2520%2520--%253E%250A%253Cbutton%2520class%253D%2522btn%2520primary-solid-btn%2522%253E%250A%2520%2520%2520%2520Primary%2520Button%250A%253C%252Fbutton%253E%250A%253C%21--%2520Solid%2520Success%2520Button%2520%2520--%253E%250A%253Cbutton%2520class%253D%2522btn%2520success-solid-btn%2522%253E%250A%2520%2520%2520%2520Success%2520Button%250A%253C%252Fbutton%253E%250A%253C%21--%2520Solid%2520Error%2520Button%2520%2520--%253E%250A%253Cbutton%2520class%253D%2522btn%2520error-solid-btn%2522%253E%250A%2520%2520%2520%2520Error%2520Button%250A%253C%252Fbutton%253E%250A%253C%21--%2520Solid%2520Warning%2520Button%2520%2520--%253E%250A%253Cbutton%2520class%253D%2522btn%2520warning-solid-btn%2522%253E%250A%2520%2520%2520%2520Warning%2520Button%250A%253C%252Fbutton%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <h5>Examples of Outline Buttons: </h5>
+                <div class="container">
+                    <button class="btn primary-outline-btn">
+                        Primary Button
+                    </button>
+                    <button class="btn success-outline-btn">
+                        Success Button
+                    </button>
+                    <button class="btn error-outline-btn">
+                        Error Button
+                    </button>
+                    <button class="btn warning-outline-btn">
+                        Warning Button
+                    </button>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28133%2C122%2C53%2C1%29&t=night-owl&wt=sharp&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253C%21--%2520Outlined%2520Primary%2520Button%2520%2520--%253E%250A%253Cbutton%2520class%253D%2522btn%2520primary-outline-btn%2522%253E%250A%2520%2520%2520%2520Primary%2520Button%250A%253C%252Fbutton%253E%250A%253C%21--%2520Outlined%2520Success%2520Button%2520%2520--%253E%250A%253Cbutton%2520class%253D%2522btn%2520success-outline-btn%2522%253E%250A%2520%2520%2520%2520Success%2520Button%250A%253C%252Fbutton%253E%250A%253C%21--%2520Outlined%2520Error%2520Button%2520%2520--%253E%250A%253Cbutton%2520class%253D%2522btn%2520error-outline-btn%2522%253E%250A%2520%2520%2520%2520Error%2520Button%250A%253C%252Fbutton%253E%250A%253C%21--%2520Outlined%2520Warning%2520Button%2520%2520--%253E%250A%253Cbutton%2520class%253D%2522btn%2520warning-outline-btn%2522%253E%250A%2520%2520%2520%2520Warning%2520Button%250A%253C%252Fbutton%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <h5>Examples of Link, Float Button and Icon Buttons: </h5>
+                <div class="container">
+                    <button class="btn-no-decor"><i class="fas fa-2x fa-plus-circle"></i></button>
+                    <button class="btn-no-decor"><i class="fas fa-2x fa-check-circle"></i></button>
+                    <button class="link btn-no-decor">
+                        <a href="https://www.google.com/">LINK</a>
+                    </button>
+                    <button class="btn-no-decor"><i class="fas fa-2x fa-shopping-cart"></i></button>
+                    <button class="btn-no-decor"><i class="far fas fa-2x fa-heart"></i></button>
+                </div>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28133%2C122%2C53%2C1%29&t=night-owl&wt=sharp&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253C%21--%2520Float%2520Buttons%2520%2520--%253E%250A%253Cbutton%2520class%253D%2522btn-no-decor%2522%253E%253Ci%2520class%253D%2522fas%2520fa-2x%2520fa-plus-circle%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-no-decor%2522%253E%253Ci%2520class%253D%2522fas%2520fa-2x%2520fa-check-circle%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253C%21--%2520Link%2520%2520--%253E%250A%253Cbutton%2520class%253D%2522link%2520btn-no-decor%2522%253E%250A%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%253ELINK%253C%252Fa%253E%250A%253C%252Fbutton%253E%250A%253C%21--%2520Icon%2520Buttons%2520%2520--%253E%250A%253Cbutton%2520class%253D%2522btn-no-decor%2522%253E%253Ci%2520class%253D%2522fas%2520fa-2x%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-no-decor%2522%253E%253Ci%2520class%253D%2522far%2520fas%2520fa-2x%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <!-- Button Component Ends  -->
+
 
         </main>
     </div>

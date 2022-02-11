@@ -23,8 +23,8 @@
     grid-template-rows: 5rem 25rem 20rem 5rem;
     grid-template-areas:
         "header-sec header-sec"
-        "sectionA section-img"
-        "sectionB section-iframe"
+        "libraryInfo section-img"
+        "installationInfo section-iframe"
         "footer-sec footer-sec"
 }
 
@@ -42,7 +42,7 @@ header {
     background-color: var(--secondary-color);
 }
 
-nav>img {
+.nav-img {
     width: 10rem;
 }
 
@@ -68,14 +68,14 @@ a {
 }
 
 .social-links .fab:hover,
-nav>a:hover,
+.nav-items:hover,
 .footer-links i:hover {
     color: var(--primary-color);
     cursor: pointer;
 }
 
-.main-sec-a {
-    grid-area: sectionA;
+.library-info {
+    grid-area: libraryInfo;
     margin: 3rem 0 0 3rem;
 }
 
@@ -114,6 +114,10 @@ button {
     cursor: pointer;
 }
 
+.secondary-btn-text {
+    color: var(--secondary-color);
+}
+
 .secondary-btn:hover {
     background-color: var(--primary-color-b);
 }
@@ -125,8 +129,8 @@ button {
     margin: 1rem;
 }
 
-.main-sec-b {
-    grid-area: sectionB;
+.installation-info {
+    grid-area: installationInfo;
     margin: 3rem 0 0 3rem
 }
 
@@ -136,6 +140,14 @@ button {
     align-items: center;
     grid-area: section-iframe;
     height: auto;
+}
+
+iframe {
+    width: 503px;
+    height: 100px;
+    border: 0;
+    transform: scale(1);
+    overflow: hidden;
 }
 
 footer {
@@ -165,9 +177,9 @@ footer {
         grid-template-rows: 5rem 20rem 20rem 20rem 20rem 5rem;
         grid-template-areas:
             "header-sec"
-            "sectionA"
+            "libraryInfo"
             "section-img"
-            "sectionB"
+            "installationInfo"
             "section-iframe"
             "footer-sec"
     }

@@ -1,0 +1,79 @@
+.badge-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.ava-round-img {
+    border-radius: 50%;
+}
+
+.badge-dot {
+    border-radius: 50%;
+    height: 1.7rem;
+    width: 1.7rem;
+    position: absolute;
+    bottom: 0.2rem;
+    left: 4.2rem;
+    border: solid 0.2rem var(--secondary-color);
+}
+
+.badge-online-dot {
+    background-color: var(--success-color);
+}
+
+.badge-offline-dot {
+    background-color: var(--offline-color);
+}
+
+.badge-dnd-dot {
+    background-color: var(--error-color);
+}
+
+.badge-online-outlined {
+    border: 0.4rem solid var(--success-color)
+}
+
+.badge-dnd-outlined {
+    border: 0.4rem solid var(--error-color)
+}
+
+.badge-offline-outlined {
+    border: 0.4rem solid var(--offline-color)
+}
+
+.badge-wrapper .avatar {
+    position: relative;
+}
+
+.badge-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: var(--warning-color);
+}
+
+.badge-round {
+    border-radius: 50%;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.badge-square {
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.badge-right {
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+}
+
+.badge-left {
+    position: absolute;
+    right: 3.3rem;
+    bottom: 3rem
+}

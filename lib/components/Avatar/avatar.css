@@ -1,4 +1,4 @@
-.avatar-component {
+.avatar-wrapper {
     display: flex;
     flex-flow: column wrap;
     gap: 0.5rem;
@@ -16,11 +16,11 @@
     box-shadow: var(--shadow-color) 0px 3px 8px;
 }
 
-.ava-round-img {
+.avatar-rounded {
     border-radius: 50%;
 }
 
-.ava-sq-img {
+.avatar-squared {
     border-radius: 1rem;
 }
 
