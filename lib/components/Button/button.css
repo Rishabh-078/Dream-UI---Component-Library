@@ -1,4 +1,4 @@
-.button-component {
+.button-wrapper {
     display: flex;
     flex-flow: column wrap;
     gap: 0.5rem;

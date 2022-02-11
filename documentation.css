@@ -47,7 +47,7 @@ header {
     z-index: 2;
 }
 
-nav>img {
+.nav-img {
     width: 10rem;
 }
 
@@ -74,7 +74,7 @@ a {
 }
 
 .social-links .fab:hover,
-nav>a:hover {
+.nav-items:hover {
     color: var(--primary-color);
 }
 

@@ -14,7 +14,7 @@
     <div class="documentation-tab">
         <header>
             <nav>
-                <img src="./assets/Logo.PNG" />
+                <img class="nav-img" src="./assets/Logo.PNG" />
                 <a href="./index.html" class="nav-items">Home</a>
                 <a href="./documentaion.html" class="nav-items">Documentation</a>
             </nav>
@@ -44,7 +44,7 @@
         </aside>
         <main>
             <!-- Avatar Component -->
-            <div class="avatar-component">
+            <div class="avatar-wrapper">
                 <h3>Avatar</h3>
                 <p>
                     Avatar showcases the user's picture for the login profile, for the navigation bar and also for other
@@ -63,19 +63,19 @@
                 <h5>Examples of Round Image Avatar:</h5>
                 <div class="container">
                     <div class="avatar">
-                        <img class="ava-round-img avatar-xxl" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
+                        <img class="avatar-rounded avatar-xxl" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
                     </div>
                     <div class="avatar">
-                        <img class="ava-round-img avatar-xl" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
+                        <img class="avatar-rounded avatar-xl" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
                     </div>
                     <div class="avatar">
-                        <img class="ava-round-img avatar-l" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
+                        <img class="avatar-rounded avatar-l" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
                     </div>
                     <div class="avatar">
-                        <img class="ava-round-img avatar-m" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
+                        <img class="avatar-rounded avatar-m" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
                     </div>
                     <div class="avatar">
-                        <img class="ava-round-img avatar-s" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
+                        <img class="avatar-rounded avatar-s" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
                     </div>
                 </div>
                 <iframe
@@ -85,19 +85,19 @@
                 <h5>Examples of Square Image Avatar:</h5>
                 <div class="container">
                     <div class="avatar">
-                        <img class="ava-sq-img avatar-xxl" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
+                        <img class="avatar-squared avatar-xxl" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
                     </div>
                     <div class="avatar">
-                        <img class="ava-sq-img avatar-xl" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
+                        <img class="avatar-squared avatar-xl" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
                     </div>
                     <div class="avatar">
-                        <img class="ava-sq-img avatar-l" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
+                        <img class="avatar-squared avatar-l" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
                     </div>
                     <div class="avatar">
-                        <img class="ava-sq-img avatar-m" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
+                        <img class="avatar-squared avatar-m" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
                     </div>
                     <div class="avatar">
-                        <img class="ava-sq-img avatar-s" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
+                        <img class="avatar-squared avatar-s" src="./assets/avatar.png" alt="Avatar" loading="lazy" />
                     </div>
                 </div>
                 <iframe
@@ -108,7 +108,7 @@
             <!-- Avatar Component Ends -->
 
             <!-- ALert Component Starts -->
-            <div class="alert-component">
+            <div class="alert-wrapper">
                 <h3>Alerts</h3>
                 <p>Alerts are used to attract user's attention for important information without interrupting the user's
                     flow.</p>
@@ -116,16 +116,16 @@
                     different styles: Solid Alert and Outline Alert.
                     <h5>Examples of Solid Alert Box:</h5>
                     <div class=" container alert-container">
-                        <div class="alert-item alert-primary-a">
+                        <div class="alert-item alert-primary-solid">
                             This is a Primary Alert!
                         </div>
-                        <div class="alert-item alert-error-a">
+                        <div class="alert-item alert-error-solid">
                             This is a Error Alert!
                         </div>
-                        <div class="alert-item alert-success-a">
+                        <div class="alert-item alert-success-solid">
                             This is a Success Alert!
                         </div>
-                        <div class="alert-item alert-warning-a">
+                        <div class="alert-item alert-warning-solid">
                             This is a Warning Alert!
                         </div>
                     </div>
@@ -135,16 +135,16 @@
                     </iframe>
                     <h5>Examples of Outline Alert Box:</h5>
                     <div class="container alert-container">
-                        <div class="alert-item alert-primary-b">
+                        <div class="alert-item alert-primary-outlined">
                             This is a Primary Alert!
                         </div>
-                        <div class="alert-item alert-error-b">
+                        <div class="alert-item alert-error-outlined">
                             This is a Error Alert!
                         </div>
-                        <div class="alert-item alert-success-b">
+                        <div class="alert-item alert-success-outlined">
                             This is a Success Alert!
                         </div>
-                        <div class="alert-item alert-warning-b">
+                        <div class="alert-item alert-warning-outlined">
                             This is a Warning Alert!
                         </div>
                     </div>
@@ -155,7 +155,7 @@
             </div>
             <!-- ALert Component Ends  -->
             <!-- Badge Comonent Starts  -->
-            <div class="badge-component">
+            <div class="badge-wrapper">
                 <h3>Badges</h3>
                 <p>Badges are being used to display a notification count or status information.</p>
                 <p>We have two types of avatar badges that tells whether the user is online, offline or in DND mode.
@@ -163,16 +163,16 @@
                 <h5>Examples of Dot Profile Badges:</h5>
                 <div class="container">
                     <div class="avatar">
-                        <img class="ava-round-img avatar-m" src="./assets/avatar.png" alt="Avatar" />
-                        <div class="badge-dot badge-online-a"></div>
+                        <img class="avatar-rounded avatar-m" src="./assets/avatar.png" alt="Avatar" />
+                        <div class="badge-dot badge-online-dot"></div>
                     </div>
                     <div class="avatar">
-                        <img class="ava-round-img avatar-m" src="./assets/avatar.png" alt="Avatar" />
-                        <div class="badge-dot badge-offline-a"></div>
+                        <img class="avatar-rounded avatar-m" src="./assets/avatar.png" alt="Avatar" />
+                        <div class="badge-dot badge-offline-dot"></div>
                     </div>
                     <div class="avatar">
-                        <img class="ava-round-img avatar-m" src="./assets/avatar.png" alt="Avatar" />
-                        <div class="badge-dot badge-dnd-a"></div>
+                        <img class="avatar-rounded avatar-m" src="./assets/avatar.png" alt="Avatar" />
+                        <div class="badge-dot badge-dnd-dot"></div>
                     </div>
                 </div>
                 <iframe
@@ -182,13 +182,13 @@
                 <h5>Examples of Outline Profile Badges:</h5>
                 <div class="container">
                     <div class="avatar">
-                        <img class="ava-round-img avatar-m badge-online-b" src="./assets/avatar.png" alt="Avatar" />
+                        <img class="avatar-rounded avatar-m badge-online-outlined" src="./assets/avatar.png" alt="Avatar" />
                     </div>
                     <div class="avatar">
-                        <img class="ava-round-img avatar-m badge-offline-b" src="./assets/avatar.png" alt="Avatar" />
+                        <img class="avatar-rounded avatar-m badge-offline-outlined" src="./assets/avatar.png" alt="Avatar" />
                     </div>
                     <div class="avatar">
-                        <img class="ava-round-img avatar-m badge-dnd-b" src="./assets/avatar.png" alt="Avatar" />
+                        <img class="avatar-rounded avatar-m badge-dnd-outlined" src="./assets/avatar.png" alt="Avatar" />
                     </div>
                 </div>
                 <iframe
@@ -214,7 +214,7 @@
             <!-- Badge Component Ends -->
 
             <!-- Button Component Starts  -->
-            <div class="button-component">
+            <div class="button-wrapper">
                 <h3>Button</h3>
                 <p> Buttons are also called as call to action. We have range of buttons and their states. You may use a
                     tag or button element, you need to add respective classes, and you are good to go.</p>

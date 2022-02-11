@@ -1,4 +1,4 @@
-.badge-component {
+.badge-wrapper {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -15,33 +15,34 @@
     position: absolute;
     bottom: 0.2rem;
     left: 4.2rem;
+    border: solid 0.2rem var(--secondary-color);
 }
 
-.badge-online-a {
+.badge-online-dot {
     background-color: var(--success-color);
 }
 
-.badge-offline-a {
+.badge-offline-dot {
     background-color: var(--offline-color);
 }
 
-.badge-dnd-a {
+.badge-dnd-dot {
     background-color: var(--error-color);
 }
 
-.badge-online-b {
+.badge-online-outlined {
     border: 0.4rem solid var(--success-color)
 }
 
-.badge-dnd-b {
+.badge-dnd-outlined {
     border: 0.4rem solid var(--error-color)
 }
 
-.badge-offline-b {
+.badge-offline-outlined {
     border: 0.4rem solid var(--offline-color)
 }
 
-.badge-component .avatar {
+.badge-wrapper .avatar {
     position: relative;
 }
 
