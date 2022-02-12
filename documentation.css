@@ -2,6 +2,7 @@
 @import "./lib/components/Alerts/alert.css";
 @import "./lib/components/Badge/badge.css";
 @import "./lib/components/Button/button.css";
+@import "./lib/components/Card/card.css";
 
 * {
     padding: 0;
@@ -23,6 +24,7 @@
 
 p {
     font-size: 1.25rem;
+    padding: 0.2rem;
 }
 
 .documentation-tab {
