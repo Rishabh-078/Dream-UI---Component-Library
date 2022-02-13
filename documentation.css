@@ -3,6 +3,8 @@
 @import "./lib/components/Badge/badge.css";
 @import "./lib/components/Button/button.css";
 @import "./lib/components/Card/card.css";
+@import "./lib/components/Images/image.css";
+@import "./lib/components/Input/input.css";
 
 * {
     padding: 0;

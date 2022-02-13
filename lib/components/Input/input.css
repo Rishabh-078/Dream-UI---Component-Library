@@ -1,0 +1,61 @@
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-wrapper iframe{
+    height: 15rem;
+}
+
+.input{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.75rem;
+}
+
+.input-area{
+    padding: 10px;
+    width: 22vw;
+    margin-top: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.input-std-label{
+    color: var(--primary-color);
+}
+
+.input-std{
+    border: solid 2px var(--primary-color);
+}
+
+.input-error-label{
+    color: var(--error-color);
+}
+
+.input-error{
+    border: solid 2px var(--error-color);
+}
+
+.input-warn-label{
+    color: var(--warning-color);
+}
+
+.input-warn{
+    border: solid 2px var(--warning-color);
+}
+
+.input-success-label{
+    color: var(--success-color);
+}
+
+.input-success{
+    border: solid 2px var(--success-color);
+}
+
+.input-validation{
+    display: flex;
+    flex-direction: column;
+}
