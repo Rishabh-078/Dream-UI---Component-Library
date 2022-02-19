@@ -10,24 +10,26 @@
 
 .container-img {
     padding: 1rem;
-    box-shadow: var(--shadow-color) 0px 3px 8px;
     border-radius: 1rem;
+    width: 80%;
+    margin: auto;
 }
 
 .responsive-img {
     width: 100%;
-    height: 30rem;
+    height: 100%;
+    object-fit: cover;
 }
 
 .round-image-container {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
+    width: 40%;
+    margin: auto;
 }
 
 .round-img {
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
-    width: 25rem;
-    height: 25rem;
+    aspect-ratio: 1;
+    object-fit: cover;
 }
