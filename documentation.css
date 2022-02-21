@@ -5,6 +5,9 @@
 @import "./lib/components/Card/card.css";
 @import "./lib/components/Images/image.css";
 @import "./lib/components/Input/input.css";
+@import "./lib/components/Modal/modal.css";
+@import "./lib/components/Toast/toast.css";
+@import "./lib/components/Forms/forms.css";
 
 * {
     padding: 0;
