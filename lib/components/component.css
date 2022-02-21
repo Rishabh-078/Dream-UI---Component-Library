@@ -1,0 +1,28 @@
+@import "./lib/components/Avatar/avatar.css";
+@import "./lib/components/Alerts/alert.css";
+@import "./lib/components/Badge/badge.css";
+@import "./lib/components/Button/button.css";
+@import "./lib/components/Card/card.css";
+@import "./lib/components/Images/image.css";
+@import "./lib/components/Input/input.css";
+@import "./lib/components/Modal/modal.css";
+@import "./lib/components/Toast/toast.css";
+@import "./lib/components/Forms/forms.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #a23df1;
+    --secondary-color: white;
+    --tertiary-color: black;
+    --primary-color-b: #dda7fd;
+    --error-color: rgb(252, 25, 25);
+    --success-color: rgb(41, 180, 41);
+    --warning-color: #ff9700;
+    --offline-color: rgba(53, 52, 52, 0.884);
+    --shadow-color: rgba(0, 0, 0, 0.274);
+}
