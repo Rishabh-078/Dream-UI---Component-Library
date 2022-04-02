@@ -8,6 +8,8 @@
 @import "./lib/components/Modal/modal.css";
 @import "./lib/components/Toast/toast.css";
 @import "./lib/components/Forms/forms.css";
+@import "./lib/components/Navigation/navigation.css";
+@import "./lib/components/Rating/rating-bar.css";   
 
 * {
     padding: 0;
