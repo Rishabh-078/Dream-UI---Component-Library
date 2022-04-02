@@ -1,0 +1,25 @@
+.rating-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.rating-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.rating-stars {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.rating-stars i:hover {
+    color: orange;
+}
+
+.clicked{
+    color: orange;
+}
